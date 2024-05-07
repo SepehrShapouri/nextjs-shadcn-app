@@ -19,7 +19,9 @@ export default function Home() {
           </p>
         </span>
         <div className="flex gap-[1rem]">
-          <Button size="sm" asChild><Link href="/exam">Get Started</Link></Button>
+          <Button size="sm" asChild>
+            <Link href="/exam">Get Started</Link>
+          </Button>
           <Button size="sm" variant="secondary" asChild>
             <Link href="/login">Login</Link>
           </Button>
@@ -33,6 +35,8 @@ export default function Home() {
                 src={heroImage1}
                 alt="Acheiving success"
                 objectFit="contain"
+                width={2000}
+                height={2000}
               />
             </div>
             <div className="w-full md:max-w-[50%] flex flex-col gap-1.5">
@@ -65,6 +69,8 @@ export default function Home() {
                   src={heroImage2}
                   alt="Acheiving success"
                   objectFit="contain"
+                  width={2000}
+                  height={2000}
                 />
               </div>
               <h1 className="text-lg md:text-3xl font-semibold">
@@ -90,6 +96,8 @@ export default function Home() {
                 src={heroImage2}
                 alt="Acheiving success"
                 objectFit="contain"
+                width={2000}
+                height={2000}
               />
             </div>
           </div>
@@ -101,6 +109,8 @@ export default function Home() {
                 src={heroImage3}
                 alt="Acheiving success"
                 objectFit="contain"
+                width={2000}
+                height={2000}
               />
             </div>
             <div className="w-full md:max-w-[50%] flex flex-col gap-1">

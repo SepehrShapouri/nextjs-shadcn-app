@@ -9,7 +9,7 @@ export  function RegisterForm() {
   return (
     <div className="w-full lg:grid  lg:grid-cols-2">
       <div className="hidden bg-muted lg:block">
-        <Image src={authimage} alt="Image" />
+        <Image src={authimage} alt="Image" width={2000} height={2000}/>
       </div>
       <div className="flex items-center justify-center py-12">
         <div className="mx-auto grid w-[350px] gap-6">

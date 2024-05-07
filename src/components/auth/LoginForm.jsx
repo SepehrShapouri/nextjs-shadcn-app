@@ -12,6 +12,8 @@ export  function LoginForm() {
         <Image
           src={authimage}
           alt="Image"
+          width={2000}
+          height={2000}
         />
       </div>
       <div className="flex items-center justify-center py-12">
