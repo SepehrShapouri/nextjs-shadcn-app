@@ -16,7 +16,7 @@ async function getCmsData(url){
   }
 }
 export default async function Home() {
-const homePage = await getCmsData('/home-page')
+const homePage = await getCmsData('home-page')
 const {title,description} = homePage.data.attributes;
 console.log(homePage)
   return (
