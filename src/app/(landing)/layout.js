@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
         >
           <RootHeader/>
           {children}
-          <RootFooter/>
+          {/* <RootFooter/> */}
         </ThemeProvider>
       </body>
     </html>
