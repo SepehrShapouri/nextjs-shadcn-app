@@ -52,7 +52,7 @@ export default function Home() {
                 to your individual needs. Our AI-powered tools analyze your
                 writing patterns, identify areas for improvement, and offer
                 personalized recommendations to help you strengthen your
-                foundational skills. Whether you're grappling with grammar
+                foundational skills. Whether you&apos;re grappling with grammar
                 rules, struggling with sentence structure, or seeking clarity on
                 task requirements, our platform equips you with the knowledge
                 and confidence to tackle each writing task with precision and
@@ -78,12 +78,12 @@ export default function Home() {
               </h1>
               <p className="text-sm md:text-lg">
                 Elevate your essay-writing skills to new heights with our
-                AI-enhanced composition section. Here, you'll immerse yourself
+                AI-enhanced composition section. Here, you&apos;ll immerse yourself
                 in the art of crafting compelling essays tailored specifically
                 for the IELTS exam. Our innovative platform integrates
                 state-of-the-art AI algorithms with expert guidance to provide
                 you with unparalleled support throughout your writing journey.
-                Whether you're grappling with essay structure, refining your
+                Whether you&apos;re grappling with essay structure, refining your
                 argumentation, or enhancing your vocabulary, our AI-powered
                 tools are here to help. By analyzing your writing in real-time,
                 our platform offers intelligent suggestions and actionable
@@ -120,7 +120,7 @@ export default function Home() {
               </h1>
               <p className="text-sm md:text-lg">
                 ake your writing skills to the next level with our AI-optimized
-                refinement section. Here, you'll explore advanced strategies and
+                refinement section. Here, you&apos;ll explore advanced strategies and
                 techniques designed to elevate your performance in the IELTS
                 writing test. Leveraging the latest advancements in artificial
                 intelligence, our platform provides you with the tools and
