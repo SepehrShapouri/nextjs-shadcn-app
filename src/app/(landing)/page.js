@@ -6,16 +6,28 @@ import { redirect } from "next/navigation";
 import heroImage1 from "../../../public/images/wchex-hero-1.png";
 import heroImage2 from "../../../public/images/wchex-hero-2.png";
 import heroImage3 from "../../../public/images/wchex-hero-3.png";
-export default function Home() {
+async function getCmsData(url){
+  try {
+    const response  = await fetch(process.env.NEXT_PUBLIC_CMS_URL + url)
+    const data = await response.json()
+    return data
+  } catch (error) {
+    console.log(error)
+  }
+}
+export default async function Home() {
+const homePage = await getCmsData('/home-page')
+const {title,description} = homePage.data.attributes;
+console.log(homePage)
   return (
     <div className="flex flex-col justify-center items-center md:min-h-[85svh] bg-background font-sans antialiased gap-[1rem]">
       <div className="flex flex-col items-center gap-[1rem] h-[600px] w-full justify-center">
         <span className="flex flex-col gap-1.5 items-center text-center">
           <h1 className="text-3xl md:text-5xl font-extrabold">
-            Achieve exellence through ease
+            {title}
           </h1>
           <p className="text-sm md:text-md">
-            Ace your writing exams using our AI powered system
+            {description}
           </p>
         </span>
         <div className="flex gap-[1rem]">
