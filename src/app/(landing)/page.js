@@ -15,7 +15,7 @@ export default async function Home() {
             Achieve excellence through ease
           </h1>
           <p className="text-sm md:text-md">
-            Ace your writing exams with our AI powered system integrated into your daily life
+            Ace your writing exams with our AI powered system integrated
           </p>
         </span>
         <div className="flex gap-[1rem]">
